@@ -1,0 +1,18 @@
+﻿1.    What are the two types of Intents?
+
+Ans:
+	There are Explicit Intents and Implicit intents. The explicit intent will specify the component, it will define what class to be invoked. The implicit intent on the other hand will not specify the component but provide a general action on the system such as a webpage to be invoked.
+
+
+2. Which of the two types of intents are more secure?
+
+Ans:
+	Explicit Intents are more secure since they just request a specific activity or application so it will reduce the risk that there might be some features could be exploit by hackers. On the other hand, implicit Intents do not specify the component to respond back to Intents, so it might allow any application that matches the intent filter. In this case, hackers can make a fake but malicious app to respond to your application.
+
+3. They are implicit Intents
+
+4. They are explicit Intents
+
+5. The intents in ThirdFragment.kt is the proper way to do it since it is the explicit intents. 
+
+For the modified part, I changed the code from lines 69~73 in SecondFragment.kt since it is the implicit Intent. For the original code, after the registration it will be directed to the product page, so I specified the component which is “ProductScrolingActivity” inside the code for explicit Intent instead of Filtering “ACTION_VIEW”(Implicit Intent).
