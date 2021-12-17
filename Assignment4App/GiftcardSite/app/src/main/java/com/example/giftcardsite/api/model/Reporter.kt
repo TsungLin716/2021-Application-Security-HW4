@@ -16,6 +16,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/*
 class Reporter(private val token: String) : LocationListener, SensorEventListener{
     override fun onLocationChanged(location: Location) {
         var userInfoContainer = UserInfoContainer(location, null, token)
@@ -71,3 +72,4 @@ class Reporter(private val token: String) : LocationListener, SensorEventListene
         return
     }
 }
+*/
